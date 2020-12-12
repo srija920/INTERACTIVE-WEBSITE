@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    
+
+  }
+
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 1.0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://fsa.zobj.net/crop.php?r=YJnlgM04bzPogSKZPVe-nQ-9rvtWcjVN9Fo6ziWBIQBuodsc0G5Wyf_1AE3sjIIWgsxzPH6pHbgVQEcgWbRnGrGcdn47BLNJALtgQf7rpTfsNUCgitfrH_0G58F_b_Q2OptEt9HZBU8z42aA");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?cs=srgb&dl=pexels-christina-morillo-1181675.jpg&fm=jpg.jpg");
+    min-height: 600px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://ak.picdn.net/shutterstock/videos/28903939/thumb/1.jpg");
+    min-height: 600px;
+  }
+
+  .bgimg-4 {
+   background-image: url("https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?cs=srgb&dl=pexels-christina-morillo-1181675.jpg&fm=jpg.jpg");
+   min-height:  100%;
+
+  }
+  .caption {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #ff0066;
+  }
+  
+  .caption span.border {
+    background-color: pink;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color:#000;
+  }
